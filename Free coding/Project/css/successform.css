@@ -1,0 +1,30 @@
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    padding-left: 200px;    
+}
+
+h1 {
+    padding-left: 70px;
+    font-size: 50px;
+}
+
+button {
+    margin-left: 600px;
+    padding: 5px;
+    background: rgb(243, 94, 94);
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+button:hover {
+    background: rgb(255, 2, 2);
+    color: rgb(243, 0, 252);
+}

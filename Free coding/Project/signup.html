@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <script src="js/js.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" src="https://kit.fontawesome.com/fc43bf7534.js" crossorigin="anonymous"/>
+    <link rel="shortcut icon" type="images/png" href="images/laptop.png"/>
+    <title>Join Hieu's family</title>
+</head>
+<body>
+    <div class="login">
+        <div class="left">
+            <img src="images/laptop.png">
+        </div>
+        <div class="right">
+            <h1><span class="h1">Create your account</span></h1>
+            <form class="input">
+                <div class="input-email">
+                    <input id="username" type="text" name="username" class="sign-up-input" placeholder="Username" autocomplete="off" required>
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="input-email">
+                    <input id="email" type="email" name="email" class="sign-up-input" placeholder="Email" autocomplete="off" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="input-password">
+                    <input id="password" type="password" name="password" class="sign-up-input" placeholder="Password" autocomplete="off" required>
+                    <i class="fas fa-lock"></i>
+                </div>
+                <input id="checkBox" type="checkbox" name="checkBox" value="yes" onchange="checkBoxPhone()"/>
+                <label for="checkBox">Phone?</label><br>
+                <div id="phone">
+                    <input id="phonenumber" name="phonenumber" type="text" pattern="[0-9]{5}" placeholder="Phone Number">
+                </div>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+            <span class="signin"><p>Already have an account?<a href="index.html"><i> Login here</i></a></p></span>
+        </div>
+    </div>
+</body>
+</html>
