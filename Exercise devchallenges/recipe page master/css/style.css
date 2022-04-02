@@ -1,0 +1,205 @@
+body {
+    height: 100%;
+}
+
+#page {
+    width: 1100px;
+    height: 100%;
+    margin: 50px 200px 0px 200px;
+}
+
+#page #intro {
+    width: 550px;
+}
+
+#page #intro h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+#page #intro p {
+    float: left;
+    display: block;
+    margin-top: -20px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+#page #main {
+    margin-top: 40px;
+    height: 100%;
+}
+
+#page #main #left {
+    width: 700px;
+    min-height: 800px;
+    float: left;
+    display: block;
+}
+
+#page #main #left #left1 {
+    width: 580px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#page #main #left ul li {
+    line-height: 30px;
+    list-style: none;
+    margin-left: -40px;
+}
+
+#page #main #left #left2 {
+    width: 580px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#page #main #left #left2 button {
+    background: #F2994A;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
+#page #main #left #n1 {
+    margin-left: 35px;
+    margin-top: -40px;
+}
+
+#page #main #left #n2 {
+    margin-left: 35px;
+    margin-top: -40px;
+}
+
+#page #main #left #n3 {
+    margin-left: 35px;
+    margin-top: -40px;
+}
+
+#page #main #left #n4 {
+    margin-left: 35px;
+    margin-top: -40px;
+}
+
+#page #main #left #n5 {
+    margin-left: 35px;
+    margin-top: -40px;
+}
+
+#page #main #left #n6 {
+    margin-left: 35px;
+    margin-top: -40px;
+}
+
+#page #main #left #n7 {
+    margin-left: 35px;
+    margin-top: -40px;
+}
+
+#page #main #left #source {
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+    margin-top: 40px;
+}
+
+#page #main #right {
+    float: right;
+    width: 216px;
+    height: 330px;
+    display: block;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+#page #main #right #content {
+    width: 135px;
+    min-height: 265px;
+    margin: 50px 45px;
+    display: block;
+}
+
+#page #main #right #content i {
+    margin-right: 10px;
+    font-size: 30px;
+    float: left;
+}
+
+#page #main #right #content #first {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+#page #main #right #content #first h3 {
+    color: rgba(189, 189, 189, 1);
+    font-size: 12px;
+}
+
+#page #main #right #content #first p {
+    float: left;
+    color:rgba(242, 153, 74, 1);
+    font-size: 14px;
+    margin-top: -13px;
+}
+
+#page #main #right #content #second {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+#page #main #right #content #second p {
+    float: left;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: -13px;
+}
+
+#page #main #right #content #second h3 {
+    color: rgba(189, 189, 189, 1);
+    font-size: 12px;
+}
+
+#page #main #right #content #third {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+#page #main #right #content #third p {
+    float: left;
+    font-size: 14px;
+    margin-top: -13px;
+}
+
+#page #main #right #content #third h3 {
+    color: rgba(189, 189, 189, 1);
+    font-size: 12px;
+}
+
+#page #main #right #content #fourth {
+    padding-top: 15px;
+}
+
+#page #main #right #content #fourth p {
+    float: left;
+    font-size: 14px;
+}
+
+#page #main #right #content #fourth h3 {
+    color: rgba(189, 189, 189, 1);
+    font-size: 12px;
+    margin-top: -4px;
+}
+
+#page #footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    text-align: center;
+}

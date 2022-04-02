@@ -1,0 +1,248 @@
+body {
+    background: #fff;
+}
+
+#page {
+    font-family: 'Montserrat', sans-serif;
+    width: 1200px;
+    min-height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#page #profile {
+    width: 200px;
+    height: 150px;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+#page #profile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    margin-left: 55px;
+}
+
+#page #profile h3 {
+    font-size: 24px;
+    color: 4E5150, 100%;
+    line-height: 29,26px;
+    margin-top: 5px;
+    text-align: center;
+    color: #4E5150;
+}
+
+#page #profile p {
+    line-height: 17,07px;
+    text-align: center;
+    margin-top: -17px;
+    color: #A9A9A9;
+}
+
+#page #action {
+    width: 285px;
+    height: 80px;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#page #action #post {
+    width: 80px;
+    height: 45px;
+    background: #fff;
+    float: left;
+    margin-right: 21px;
+    margin-top: 17px;
+    display: block;
+    border-radius: 6px;
+}
+
+#page #action #post #content1 {
+    margin-top: -15px;
+    background: rgb(243, 243, 243);
+    border-radius: 6px;
+    height: 40px;
+}
+
+#page #action #post h4 {
+    text-align: center;
+    font-size: 15px;
+    color: #4E5150;
+}
+#page #action #post p {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 13px;
+}
+
+#page #action #follower {
+    width: 80px;
+    height: 45px;
+    float: left;
+    margin-right: 21px;
+    margin-top: 17px;
+    display: inline;
+    border-radius: 6px;
+    background: #fff;
+}
+
+#page #action #follower #content2 {
+    margin-top: -15px;
+    background: rgb(243, 243, 243);
+    border-radius: 6px;
+    height: 40px;
+}
+
+#page #action #follower h4 {
+    text-align: center;
+    font-size: 15px;
+    color: #4E5150;
+}
+
+#page #action #follower p {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 13px;
+}
+
+#page #action #following {
+    width: 80px;
+    height: 50px;
+    float: left;
+    margin-right: 0px;
+    margin-top: 17px;
+    display: inline;
+    border-radius: 6px;
+    background: #fff;
+}
+
+#page #action #following #content3 {
+    margin-top: -15px;
+    background: rgb(243, 243, 243);
+    border-radius: 6px;
+    height: 40px;
+}
+
+#page #action #following h4 {
+    text-align: center;
+    font-size: 15px;
+    color: #4E5150;
+}
+#page #action #following p {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 13px;
+}
+
+#page #photos {
+    height: 700px;
+    width: 800px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#page #photos #area1 {
+    height: 33%;
+    width: 33%;
+    display: block;
+    background: #fff;
+    float: left;
+}
+
+#page #photos #area1 img {
+    height: 215px;
+    width: 245px;
+    border-radius: 12px;
+    float: left;
+    box-shadow: 0px 3px rgb(241, 241, 241);
+}
+
+#page #photos #area2 {
+    height: 33%;
+    width: 67%;
+    background: #fff;
+    float: right;
+}
+
+#page #photos #area2 img {
+    float: right;
+    height: 215px;
+    width: 527px;
+    border-radius: 12px;
+    box-shadow: 0px 3px rgb(241, 241, 241);
+}
+
+#page #photos #area3 {
+    height: 33%;
+    width: 67%;
+    background: #fff;
+    float: left;
+}
+
+#page #photos #area3 img {
+    height: 215px;
+    width: 527px;
+    border-radius: 12px;
+    float: left;
+    box-shadow: 0px 3px rgb(241, 241, 241);
+}
+
+#page #photos #area4 {
+    height: 67%;
+    width: 33%;
+    background: #fff;
+    float: right;
+}
+
+#page #photos #area4 img {
+    height: 453px;
+    width: 250px;
+    border-radius: 20px;
+    float: right;
+}
+
+#page #photos #area5 {
+    background: #fff;
+    height: 34%;
+    width: 33%;
+    float: left;
+}
+
+#page #photos #area5 img {
+    height: 215px;
+    width: 245px;
+    border-radius: 12px;
+    box-shadow: 0px 3px rgb(241, 241, 241);
+}
+
+#page #photos #area6 {
+    background: #fff;
+    float: left;
+    width: 34%;
+    height: 34%;
+}
+
+#page #photos #area6 img {
+    height: 215px;
+    width: 245px;
+    border-radius: 12px;
+    float: left;
+    margin-left: 10px;
+    box-shadow: 0px 3px rgb(241, 241, 241);
+}
+
+#page #footer {
+    position: fixed;
+    color: rgb(194, 194, 194);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+}

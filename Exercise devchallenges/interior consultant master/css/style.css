@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #181719;
+    color: #fff;
+    height: 100%;
+    width: 1300px;
+}
+
+#box {
+    height: 200px;
+    width: 1300px;
+    margin-left: 100px;
+}
+
+#box h4 {
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 30px;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 0px;
+    float: left;
+}
+
+#box ul li {
+    list-style: none;
+    float: right;
+}
+
+#box ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 50px 0px 50px;
+    font-size: 20px;
+}
+
+#box ul li a:hover {
+    color: rgb(255, 2, 2);
+}
+
+#main {
+    width: 1300px;
+    height: 100%;
+    position: relative;
+}
+
+#main #left {
+    width: 500px;
+    height: 100%;
+    margin-left: 100px;
+    float: left;
+}
+
+#main #left h1 {
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main #left h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    width: 450px;
+}
+
+#main #left a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 19px;
+}
+
+#main #left a:hover {
+    color: rgb(4, 0, 255);
+}
+
+#main #right img {
+    width: 700px;
+    height: 500px;
+    float: left;
+}
+
+#main #footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    text-align: center;
+}
